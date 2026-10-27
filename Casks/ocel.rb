@@ -1,24 +1,24 @@
 cask "ocel" do
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_arm do
-      sha256 "c9b8d9716b31b7263528fd1442d056e429214c4b56135c3ef2169aae1bb2bfbb"
-      url "https://github.com/ocelhq/ocel/releases/download/v0.0.2/ocel_0.0.2_darwin_arm64.tar.gz"
+      sha256 "73c8f73543b7f6e8be0a39b4116345804d7adf029cb27628025f5676a664a82a"
+      url "https://github.com/ocelhq/ocel/releases/download/v0.0.3/ocel_0.0.3_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c2a5af4ac828eda0b3e098ab71077a4c7e1794403fbadafaa8086cadd0ec7135"
-      url "https://github.com/ocelhq/ocel/releases/download/v0.0.2/ocel_0.0.2_darwin_amd64.tar.gz"
+      sha256 "53bfd619276586d231af80511139fbf07f0befb1e6d034cea43b17caaa8c5e9f"
+      url "https://github.com/ocelhq/ocel/releases/download/v0.0.3/ocel_0.0.3_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a4dd634bfb74be4465bec993ee0eff9fb41e5beb7f6ed86ec97b10e3246092ec"
-      url "https://github.com/ocelhq/ocel/releases/download/v0.0.2/ocel_0.0.2_linux_arm64.tar.gz"
+      sha256 "501d656ad9e3c6e912194b9d7490b4a4d01bac2d1cf7cbef8ea254bf6e51fae1"
+      url "https://github.com/ocelhq/ocel/releases/download/v0.0.3/ocel_0.0.3_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b268e233cf20aeb11fdd31764c953cd86fdbbd081b0de48698495d6d2784d224"
-      url "https://github.com/ocelhq/ocel/releases/download/v0.0.2/ocel_0.0.2_linux_amd64.tar.gz"
+      sha256 "878d8040b42dab40336567e71657970de026bf6b0fa33ff586a0deffc728cdb5"
+      url "https://github.com/ocelhq/ocel/releases/download/v0.0.3/ocel_0.0.3_linux_amd64.tar.gz"
     end
   end
 
